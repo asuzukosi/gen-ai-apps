@@ -47,6 +47,6 @@ def get_chunk_texts(text):
     return chunks
 
 
-pdf = PDF(path="/Users/kosisochukwuasuzu/Developer/machine_learning/gen-ai-apps/src/apps/content_search/files")
+pdf = PDF()
 pdf.load_chunks()
 print(len(pdf.get_chunks()))
