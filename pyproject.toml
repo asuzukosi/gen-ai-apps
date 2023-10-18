@@ -12,6 +12,8 @@ requests = "^2.31.0"
 rich = "^13.6.0"
 openai = "^0.28.1"
 chromadb = "^0.4.14"
+langchain = "^0.0.317"
+pypdf2 = "^3.0.1"
 
 
 [build-system]
